@@ -1,0 +1,13 @@
+diff --git a/Cargo.toml b/Cargo.toml
+index e500401..b2e1392 100644
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -73,7 +73,7 @@ tonic = { version = "0.11", features = ["tls"] }
+ tonic-build = "0.11"
+ tracing = "0.1"
+ tracing-subscriber = { version = "0.3", features = ["env-filter", "json"] }
+-yang2 = { version = "0.13", features = ["bundled"] }
++yang2 = { version = "0.13", features = [] }
+ 
+ [workspace.lints.rust]
+ rust_2018_idioms = { level = "warn", priority = -1 }
